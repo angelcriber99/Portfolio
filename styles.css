@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 18px;
+  color: #ddd;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+#projects {
+  background-color: #fff;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 20px;
+}
+
+.slide {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 20px;
+}
+
+.slide img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header p,
+#about p {
+  margin: 0 50px;
+}
